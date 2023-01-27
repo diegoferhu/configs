@@ -3,6 +3,12 @@ Host work
 	HostName github.com
 	User git
 	IdentityFile ~/.ssh/id_rsa_work
+	
+# gitWorkEMU
+Host work_EMU
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_work_EMU
 
 # enterprise
 Host enterprise
