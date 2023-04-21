@@ -11,3 +11,4 @@ set sw=2 "Ident with 2 spaces
 set relativenumber "Where it is cursor position count other lines
 set laststatus=2 "Show bottom menu
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+let g:vimspector_base_dir='/Users/diegohurtado/.vim/plugged/vimspector'
