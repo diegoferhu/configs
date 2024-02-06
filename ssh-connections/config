@@ -1,25 +1,33 @@
-# gitWork
+# gitWork -->Legacy
 Host work
 	HostName github.com
 	User git
+	AddKeysToAgent yes
+	UseKeychain yes
 	IdentityFile ~/.ssh/id_rsa_work
 	
-# gitWorkEMU
-Host work_EMU
+# gitWorkEmu
+Host work_emu
 	HostName github.com
 	User git
-	IdentityFile ~/.ssh/id_rsa_work_EMU
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa_work_emu
 
 # enterprise
 Host enterprise
 	HostName github.avaldigitallabs.com
 	User git
+	AddKeysToAgent yes
+	UseKeychain yes
 	IdentityFile ~/.ssh/id_rsa_work_enterprise
 
 # personal
 Host personal
  	HostName github.com
 	User git
+	AddKeysToAgent yes
+	UseKeychain yes
 	IdentityFile ~/.ssh/id_rsa_personal
 
 # raspberry 
